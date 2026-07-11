@@ -1,6 +1,6 @@
 sources:
   - name: jaffle_shop
-    database: dbt-tutorial
+    database: raw-dbt-502110
     schema: jaffle_shop
     config:
       freshness:
