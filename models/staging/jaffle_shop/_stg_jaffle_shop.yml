@@ -13,11 +13,12 @@ models:
           - unique
           - not_null
       - name: order_status
-        - accepted_values:
-            values:
-              - completed
-              - shipped
-              - placed
-              - return_pending
-              - returned
+        data_tests:
+          - accepted_values:
+              values:
+                - completed
+                - shipped
+                - placed
+                - return_pending
+                - returned
           
